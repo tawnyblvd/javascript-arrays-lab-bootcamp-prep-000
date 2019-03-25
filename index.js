@@ -44,6 +44,6 @@ removeLastKitten();
 
 //error
 function removeFirstKitten() {
-  return kittens.slice(0);
+  return (kittens - kittens.slice(0));
 }
 removeFirstKitten();
