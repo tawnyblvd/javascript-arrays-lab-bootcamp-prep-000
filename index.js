@@ -25,10 +25,10 @@ function destructivelyRemoveFirstKitten() {
 }
 destructivelyRemoveFirstKitten();
 
-function appendKitten(array, name) {
-  return array.concat([name]);
+function appendKitten(name) {
+  return kittens.concat([name]);
 }
-appendKitten(kittens, "Broom");
+appendKitten("Broom");
 
 function prependKitten(name) {
  return [name,...kittens];
